@@ -1,5 +1,1 @@
-javascript: (function () {
-    var tmp = document.createElement('script');
-    tmp.setAttribute('src', '//www.andrewhollenbach.com/projects/vday2015/js/valentize.js');
-    document.body.appendChild(tmp);
-}());
+javascript: (function () {WebFontConfig = {google: { families: [ 'Meddon::latin' ] }}; (function() { var wf = document.createElement('script');wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type = 'text/javascript';wf.async = 'true';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf, s);})();var css = "* { font-family: 'Meddon', cursive !important; background-color: #E0A3A8 !important; } html,body {background-color:#280206 !important} p,a { background-color: #4C060B !important;color: white !important} h1,h2,h3,h4,h5,h6 { background-color: #DD466F !important;color: #280206 !important}", style = document.createElement('style');style.type = 'text/css'; if (style.styleSheet){style.styleSheet.cssText = css;} else {style.appendChild(document.createTextNode(css));}; document.head.appendChild(style);}());
