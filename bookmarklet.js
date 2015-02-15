@@ -1,3 +1,6 @@
+// bookmarklet maker: http://mrcoles.com/bookmarklet/
+// minifier:          http://www.jsmini.com/
+
 javascript: (function () {
   WebFontConfig = {
     google: {
@@ -58,4 +61,11 @@ javascript: (function () {
   for(var i=0;i<14;i++) {
     makeHeart();
   }
+
+  // add audio
+  var audio = document.createElement('audio');
+  audio.src = "http://andrewhollenbach.com/projects/vday2013/bgmusic.mp3";
+  audio.loop = true;
+  audio.autoplay = true;
+  document.body.append(audio);
 }());
